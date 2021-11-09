@@ -11,5 +11,8 @@ export default defineNuxtConfig({
                 }
             }
         }
-    }
+    },
+    publicRuntimeConfig: {
+        baseURL: process.env.BASE_URL || 'https://musing-ramanujan-b85675.netlify.app'
+      }
 })
