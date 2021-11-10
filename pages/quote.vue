@@ -13,9 +13,7 @@
 
 // direct call
 const { data: quote } = await useFetch('https://api.quotable.io/random')
-// call through server/api
-let { myURL} = useRuntimeConfig()
-let test = await fetch(`${myURL}/api/quote`)
-const { apiQuote } = await test.json()
 
+let { data } = await useFetch(`/api/quote`)
+const { apiQuote } = data.value
 </script>
