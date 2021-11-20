@@ -1,0 +1,16 @@
+name = "playground"
+type = "javascript"
+account_id = "9e879151e45e9dd1d67dec5955483a1a"
+workers_dev = true
+
+[env.production]
+route = "stargazers.ch/*"
+zone_id = "89039cecc5e52f51616518dc96af179d"
+
+[site]
+bucket = ".output/public"
+entry-point = ".output"
+
+[build]
+command = "NITRO_PRESET=cloudflare yarn nuxt build"
+upload.format = "service-worker"

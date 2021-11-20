@@ -1,7 +1,7 @@
-[build]
-  command = "yarn build"
-  publish = ".output"
-  functions = ".output/server"
+# [build]
+#   command = "yarn build"
+#   publish = ".output"
+#   functions = ".output/server"
 
 # [[redirects]]
 #   from = "/*"
