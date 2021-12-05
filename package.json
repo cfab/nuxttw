@@ -7,8 +7,11 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
-    "nuxt3": "^3.0.0-27268729.5b8e10f",
+    "nuxt3": "^3.0.0-27307420.6a25d3e",
     "postcss": "^8.3.11",
     "tailwindcss": "^3.0.0-alpha.1"
+  },
+  "dependencies": {
+    "airtable-plus": "^1.0.4"
   }
 }
